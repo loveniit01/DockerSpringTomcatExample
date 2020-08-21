@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.pj.learn</groupId>
 	<artifactId>DockerSpringTomcatExample</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1</version>
 	<packaging>war</packaging>
 	<name>DockerSpringTomcatExample</name>
 	<description>Docker Spring Tomcat Example</description>
