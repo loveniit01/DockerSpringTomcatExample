@@ -37,10 +37,9 @@ Step 5: Logging into the container
 docker exec -it <container-id> /bin/bash
 
 #Step 5: to check application on browser 
-#http://localhost:5555/DockerSpringTomcatExample-1/
+#http://localhost:5555/docker-spring-tomcat/
 #5555 : exposed posrt over 8080
-# DockerSpringTomcatExample : spring project name 
-#-1 : build version (check on  pom.xml file)
+# docker-spring-tomcat : spring project name 
 -------------------------------------------------------------------
-http://localhost:5555/DockerSpringTomcatExample-1/
+http://localhost:5555/docker-spring-tomcat/
 

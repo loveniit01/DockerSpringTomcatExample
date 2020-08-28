@@ -1,0 +1,19 @@
+version: '3.8'  
+services:  
+#  databases:
+#    image:mysql
+#    ports:
+#    - "3306":"6603"
+#    environment:
+#    - MYSQL_ROOT_PASSWORD:root
+#    - MYSQL_USER:root
+#    - MYSEL_PASSWORD:root
+#    - MYSQL_DATABASE:
+   web:
+    image: docker-spring-tomcat:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5555:8080"
+    
